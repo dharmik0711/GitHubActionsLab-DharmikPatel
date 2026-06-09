@@ -1,1 +1,1 @@
-# GitHubActionsLab-DharmikPatel
+In workflow one, we see how job dependencies work with the use of the needs parameter in GitHub actions. This workflow performs three jobs in sequence order; Build -> Test -> Deploy. The jobs begin once the previous task is completed. In workflow two, we see multi-platform testing done by performing three separate jobs in parallel on Ubuntu, Windows, and Mac OS at once.
